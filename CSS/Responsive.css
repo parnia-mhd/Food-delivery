@@ -1,0 +1,27 @@
+/* navigation */
+@media (max-width:930px) {
+    .navigation-menu {
+        display: none;
+    }
+
+    .link-navigation {
+        justify-self: center;
+    }
+
+    .navigation {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .menu-icon {
+        justify-self: flex-end;
+        cursor: pointer;
+    }
+
+}
+
+/* icon menu hamberger */
+@media (min-width:931px) {
+    .menu-icon {
+        display: none;
+    }
+}
