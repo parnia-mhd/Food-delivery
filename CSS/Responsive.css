@@ -1,5 +1,25 @@
-/* navigation */
+@media (max-width:1100px) {
+
+    /* header bottom */
+    .header-bottom {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .content-left-header {
+        margin-top: 100px;
+        max-width: 80%;
+    }
+
+    .content-right-header img {
+        max-width: 100%;
+        height: 400px;
+        margin-top: 95px;
+    }
+}
+
 @media (max-width:930px) {
+
+    /* navigation */
     .navigation-menu {
         display: none;
     }
@@ -19,9 +39,33 @@
 
 }
 
-/* icon menu hamberger */
 @media (min-width:931px) {
+
+    /* icon menu hamberger */
     .menu-icon {
         display: none;
+    }
+}
+
+@media (max-width:730px) {
+    .order-food {
+        position: absolute;
+        top: 800px;
+    }
+
+    .action-order {
+        grid-gap: 5%;
+    }
+
+    .content-right-header {
+        position: absolute;
+        top: 330px;
+    }
+
+    .header-bottom {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

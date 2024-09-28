@@ -175,3 +175,122 @@ ul li.f-child a {
     background-color: var(--color-c90000);
     border: 1px solid var(--color-c90000);
 }
+
+/* header bottom */
+.header-bottom {
+    max-width: 1440;
+    height: 687px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+}
+
+/* content left header */
+.content-left-header {
+    margin-top: 167px;
+}
+
+.content-left-header h2 {
+    width: 343px;
+    height: 144px;
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--color-c90000);
+}
+
+.content-left-header p {
+    margin-top: 12px;
+    max-width: 343px;
+    height: 54px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-504f4f);
+}
+
+/* order food */
+.order-food {
+    margin-top: 40px;
+    max-width: 369px;
+    height: 110px;
+}
+
+.total-order span:first-child {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-323232);
+}
+
+.total-order span:last-child {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-323232);
+}
+
+/* action order */
+.action-order {
+    max-width: 369px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* left button */
+.left-button {
+    height: 46px;
+    padding: 0 5px;
+    padding-top: 11px;
+    display: grid;
+    grid-template-columns: 25px 80px 25px;
+    background-color: var(--color-F1F1F1);
+    border: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.left-button input {
+    border: none;
+    outline: none;
+    background-color: #F1F1F1;
+    padding-left: 37px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-FFC300);
+}
+
+.left-button img {
+    cursor: pointer;
+}
+
+
+/* right button */
+.right-button {
+    cursor: pointer;
+    width: 179px;
+    height: 50px;
+    background-color: var(--color-FFC300);
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.right-button img {
+    width: 27px;
+    height: 27px;
+    color: black;
+}
+
+/* content right header */
+.content-right-header img {
+    height: 657px;
+}
