@@ -3,6 +3,7 @@
     /* header bottom */
     .header-bottom {
         grid-template-columns: repeat(2, auto);
+        height: 500px;
     }
 
     .content-left-header {
@@ -11,7 +12,7 @@
     }
 
     .content-right-header img {
-        max-width: 100%;
+        width: 100%;
         height: 400px;
         margin-top: 95px;
     }
@@ -37,6 +38,15 @@
         cursor: pointer;
     }
 
+    /* header bottom */
+    .content-left-header h2 {
+        font-size: 43px;
+    }
+
+    .content-left-header p {
+        font-size: 14px;
+        line-height: 27px;
+    }
 }
 
 @media (min-width:931px) {
@@ -62,10 +72,21 @@
         top: 330px;
     }
 
+    .content-right-header img {
+        width: 570px;
+    }
+
     .header-bottom {
-        max-width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 900px;
     }
+}
+
+@media (max-width:587px) {
+    .content-right-header img {
+        max-width: 390px;
+    }
+
 }

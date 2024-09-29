@@ -105,6 +105,7 @@ body {
 
 /* menu sidebar */
 .menu-sidebar {
+    z-index: 1;
     overflow-x: hidden;
     flex-direction: column;
     position: fixed;
@@ -291,6 +292,114 @@ ul li.f-child a {
 }
 
 /* content right header */
+
 .content-right-header img {
     height: 657px;
+}
+
+/* main */
+
+/* title section food */
+/* title menu */
+.title-section-food h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--color-c90000);
+}
+
+.line-bottom {
+    width: 137px;
+    height: 9px;
+    background-color: var(--color-FFF6A3);
+    margin-top: -25px;
+}
+
+/* button category */
+.button-category {
+    margin: 32px auto;
+    max-width: 1197px;
+    height: 52px;
+    display: grid;
+    grid-template-columns: 154px 164px 112px 132px 177px;
+    column-gap: 20px;
+    overflow: auto;
+}
+
+.button-category button {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid var(--color-E3E3E3);
+    background-color: var(--color-F1F1F1);
+    color: #504F4F;
+}
+
+.button-category button:first-child {
+    background-color: var(--color-FFC300);
+    font-weight: 500;
+    color: var(--color-323232);
+    border: 1px solid #FFD429;
+}
+
+/* food item 1 */
+.food-item-1 {
+    margin-bottom: 51px;
+    max-width: 370px;
+    height: 363px;
+    border: 1px solid var(--color-E3E3E3);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.image-food-item-1 img {
+    max-width: 338px;
+    height: 188px;
+    margin: 10px 16px;
+}
+
+/* food information */
+.info-food-item-1 {
+    margin: 1px 16px;
+}
+
+.info-food-item-1 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-323232);
+}
+
+.info-food-title-item-1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-504f4f);
+}
+
+.price-basket-food-item-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.price-basket-food-item-1 span {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-323232);
+}
+
+.price-basket-food-item-1 button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
 }
