@@ -1,92 +1,177 @@
-@media (max-width:1100px) {
+ @media screen and (min-width:931px) and (max-width:1160px) {
 
-    /* header bottom */
-    .header-bottom {
-        grid-template-columns: repeat(2, auto);
-        height: 500px;
-    }
+     /* menu items */
+     .food-products {
+         justify-content: center;
+         /* width: max-content; */
+         /* margin: 0 auto; */
+         grid-template-columns: repeat(3, 280px);
+         overflow-x: hidden;
+     }
 
-    .content-left-header {
-        margin-top: 100px;
-        max-width: 80%;
-    }
 
-    .content-right-header img {
-        width: 100%;
-        height: 400px;
-        margin-top: 95px;
-    }
-}
+     .image-food-item img {
+         max-width: 255px;
+         height: 172px;
+         margin: 0 12px;
+         margin-top: 16px;
+     }
 
-@media (max-width:930px) {
+     .image-food-item-2 img {
+         max-width: 260px;
+         height: 175px;
+         margin: 0 -8px;
 
-    /* navigation */
-    .navigation-menu {
-        display: none;
-    }
+     }
 
-    .link-navigation {
-        justify-self: center;
-    }
+     .image-food-item-4 img {
+         max-width: 250px;
+         height: 175px;
+         margin: 0 -3px;
 
-    .navigation {
-        grid-template-columns: repeat(3, auto);
-    }
+     }
 
-    .menu-icon {
-        justify-self: flex-end;
-        cursor: pointer;
-    }
+     .image-food-item-6 img {
+         max-width: 260px;
+         height: 175px;
+         margin: 0 -5px;
 
-    /* header bottom */
-    .content-left-header h2 {
-        font-size: 43px;
-    }
+     }
 
-    .content-left-header p {
-        font-size: 14px;
-        line-height: 27px;
-    }
-}
+     .info-food-item h4 {
+         font-size: 17px;
+         margin-top: 10px;
+     }
 
-@media (min-width:931px) {
+     .info-food-item-3 h4 {
+         font-size: 17px;
+     }
 
-    /* icon menu hamberger */
-    .menu-icon {
-        display: none;
-    }
-}
+     .price-basket-food-item-3 {
+         margin-top: -6px;
+     }
 
-@media (max-width:730px) {
-    .order-food {
-        position: absolute;
-        top: 800px;
-    }
+     .score-container-item-6 {
+         margin-top: 8px;
+     }
 
-    .action-order {
-        grid-gap: 5%;
-    }
+ }
 
-    .content-right-header {
-        position: absolute;
-        top: 330px;
-    }
 
-    .content-right-header img {
-        width: 570px;
-    }
+ @media (max-width:1100px) {
 
-    .header-bottom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 900px;
-    }
-}
+     /* header bottom */
+     .header-bottom {
+         grid-template-columns: repeat(2, auto);
+         height: 500px;
+     }
 
-@media (max-width:587px) {
-    .content-right-header img {
-        max-width: 390px;
-    }
+     .content-left-header {
+         margin-top: 100px;
+         max-width: 80%;
+     }
 
-}
+     .content-right-header img {
+         width: 100%;
+         height: 400px;
+         margin-top: 95px;
+     }
+ }
+
+ @media (max-width:930px) {
+
+     /* navigation */
+     .navigation-menu {
+         display: none;
+     }
+
+     .link-navigation {
+         justify-self: center;
+     }
+
+     .navigation {
+         grid-template-columns: repeat(3, auto);
+     }
+
+     .menu-icon {
+         justify-self: flex-end;
+         cursor: pointer;
+     }
+
+     /* header bottom */
+     .content-left-header h2 {
+         font-size: 43px;
+     }
+
+     .content-left-header p {
+         font-size: 14px;
+         line-height: 27px;
+     }
+
+     /* food items */
+     .food-products {
+         grid-template-columns: repeat(2, auto);
+         gap: 20px;
+     }
+
+     .image-food-item {
+         width: 250px;
+     }
+
+     .food-item {
+         margin: 0 auto;
+     }
+
+
+ }
+
+ @media (min-width:931px) {
+
+     /* icon menu hamberger */
+     .menu-icon {
+         display: none;
+     }
+ }
+
+ @media (max-width:790px) {
+     .food-products {
+         grid-template-columns: repeat(1, auto);
+     }
+
+ }
+
+ @media (max-width:730px) {
+     .order-food {
+         position: absolute;
+         top: 800px;
+     }
+
+     .action-order {
+         grid-gap: 5%;
+     }
+
+     .content-right-header {
+         position: absolute;
+         top: 330px;
+     }
+
+     .content-right-header img {
+         width: 570px;
+     }
+
+     .header-bottom {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         height: 900px;
+     }
+ }
+
+ @media (max-width:587px) {
+     .content-right-header img {
+         max-width: 390px;
+     }
+
+ }
+
+ @media (max-width:407px) {}
