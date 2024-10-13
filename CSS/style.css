@@ -305,10 +305,10 @@ ul li.f-child a {
     font-size: 48px;
     font-weight: 600;
     color: var(--color-c90000);
+    width: max-content;
 }
 
 .line-bottom {
-    width: 137px;
     height: 9px;
     background-color: var(--color-FFF6A3);
     margin-top: -25px;
@@ -471,4 +471,28 @@ ul li.f-child a {
     cursor: pointer;
     border: none;
     background-color: white;
+}
+
+/* see all text */
+.see-all-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.see-all-text a {
+    color: var(--color-504f4f);
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* section off */
+.section-off {
+    margin-top: 4rem;
+}
+
+.section-off .title-section-food {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
