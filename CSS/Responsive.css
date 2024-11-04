@@ -88,6 +88,15 @@
          height: 400px;
          margin-top: 95px;
      }
+
+     /* section serach location  */
+     .content-search-location h6 {
+         font-size: 36px;
+     }
+
+     .section-search-location img {
+         max-width: 147px;
+     }
  }
 
  @media (max-width:1110px) {
@@ -170,6 +179,19 @@
      }
  }
 
+ @media (max-width:834px) {
+
+     /* section serach location */
+     .section-search-location img {
+         max-width: 80px;
+     }
+
+     .content-search-location form {
+         width: 75%;
+     }
+
+ }
+
  @media (max-width:790px) {
      .food-products {
          grid-template-columns: repeat(1, auto);
@@ -229,11 +251,43 @@
 
  }
 
+ @media (max-width:676px) {
+
+     /* section serach location */
+     .content-search-location h6 {
+         font-size: 28px;
+     }
+
+     .content-search-location p {
+         font-size: 12px;
+     }
+
+     .content-search-location form {
+         width: 88%;
+     }
+
+ }
+
  @media (max-width:587px) {
      .content-right-header img {
          max-width: 390px;
      }
 
- }
+     /* section serach location */
+     .content-search-location h6 {
+         font-size: 20px;
+     }
 
- @media (max-width:407px) {}
+     .content-search-location p {
+         font-size: 10px;
+     }
+
+     .section-search-location img:nth-child(4) {
+         top: 10%;
+     }
+
+     .content-search-location form input {
+         font-size: 13px;
+     }
+
+ }

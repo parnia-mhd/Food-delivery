@@ -737,3 +737,91 @@ ul li.f-child a {
 .download-btn-app a img {
     max-width: 153px;
 }
+
+/* section serach location */
+.content-search-location {
+    margin-bottom: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 398px;
+    background-color: var(--color-323232);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.content-search-location h6 {
+    color: #FFFDE6;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.content-search-location form {
+    margin-top: 3rem;
+    position: relative;
+    width: 45%;
+    padding: 0 15px;
+    height: 56px;
+    background-color: var(--color-FFC300);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.content-search-location form input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content-search-location form input::placeholder {
+    color: var(--color-504f4f);
+    font-family: poppins;
+}
+
+.content-search-location form button {
+    border: none;
+    background-color: #FFEAE6;
+    border-radius: 100px;
+    padding: 16px 24px;
+    position: absolute;
+    right: 1%;
+    top: 6%;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.content-search-location p {
+    color: var(--color-F1F1F1);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0.5rem 0 0.4rem 0;
+}
+
+.section-search-location img {
+    max-width: 187px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.section-search-location img:last-child {
+    bottom: 0;
+    left: 10%;
+}
+
+.section-search-location img:nth-child(4) {
+    top: 18%;
+    left: 0;
+}
