@@ -197,6 +197,23 @@
          grid-template-columns: repeat(1, auto);
      }
 
+     /* footer */
+
+     .grid-section-footer {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .info-site-footer {
+         grid-row: 2;
+         grid-column: 2 span;
+         justify-self: center;
+         margin-top: -30px;
+         margin-bottom: -34px;
+     }
+
+     .link-footer {
+         justify-self: center;
+     }
  }
 
  @media (max-width:730px) {

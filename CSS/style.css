@@ -66,6 +66,7 @@ a {
 /* Body */
 body {
     font-family: poppins;
+    overflow-x: hidden;
 }
 
 /* Container */
@@ -824,4 +825,75 @@ ul li.f-child a {
 .section-search-location img:nth-child(4) {
     top: 18%;
     left: 0;
+}
+
+/* footer */
+footer {
+    background: #FFFDE6;
+    padding: 32px 0;
+}
+
+.grid-section-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-section-footer .logo-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo-footer {
+    margin: 70px auto;
+}
+
+.logo-footer div {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo-footer ul {
+    padding-top: 20px;
+    display: flex;
+    gap: 40px;
+    margin-left: 12%;
+}
+
+.logo-footer img {
+    max-width: 70px;
+}
+
+.logo-footer h6 {
+    font-size: 32px;
+    color: var(--color-323232);
+    font-weight: 600;
+}
+
+/* link footer */
+.link-footer h5,
+.opening-hour h5 {
+    font-size: 20px;
+    color: var(--color-323232);
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.link-footer ul li {
+    padding-top: 10px;
+}
+
+.link-footer ul li a {
+    color: var(--color-323232);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* opening hour */
+.opening-hour li {
+    color: var(--color-323232);
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 10px;
 }
