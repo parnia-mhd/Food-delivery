@@ -107,6 +107,10 @@ body {
     font-weight: 600;
 }
 
+.navigation-menu li a:hover {
+    color: var(--color-c90000);
+}
+
 /* menu sidebar */
 .menu-sidebar {
     z-index: 1;
